@@ -1,58 +1,65 @@
+
 # Rails Longest Word Game
 
-Welcome to the Rails Longest Word Game! This web application is a fun and interactive game that challenges users to devise the longest word possible from a given set of letters. Test your vocabulary and language skills in a competitive environment!
+This project is a web-based game where players try to create the longest word possible from a given set of letters.
 
 ## Features
 
-- **Interactive Gameplay**: Engage with the web app in real-time to find the longest word.
-- **Score Tracking**: Keeps track of your scores and compares them with historical data.
-- **Responsive Design**: Accessible on desktop and mobile devices.
-
-## Requirements
-
-- Ruby 2.7 or newer
-- Rails 6.0 or newer
-- SQLite3 or PostgreSQL
+- Random letter generation for each game.
+- Validation of words based on dictionary API.
+- Scoring system based on word length and complexity.
+- User-friendly interface for playing the game.
 
 ## Getting Started
 
-Clone the repository to your local machine:
+### Prerequisites
 
-```bash
-git clone https://github.com/shliamin/Rails-Longest-Word-Game.git
-cd Rails-Longest-Word-Game
-```
+- Ruby (version 3.0.0 or later)
+- Rails (version 6.1.3 or later)
+- PostgreSQL (for database)
 
-## Install the required gems:
-```bash
-bundle install
-```
+### Installation
 
-Set up the database:
-```bash
-rails db:create db:migrate
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shliamin/Rails-Longest-Word-Game.git
+   cd Rails-Longest-Word-Game
+   ```
 
-Start the server:
+2. Install dependencies:
+   ```bash
+   bundle install
+   ```
+
+3. Set up the database:
+   ```bash
+   rails db:create
+   rails db:migrate
+   ```
+
+### Running the Server
+
+To start the Rails server, run:
 ```bash
 rails server
 ```
+Then, open your browser and navigate to `http://localhost:3000` to play the game.
 
-Now, visit http://localhost:3000 in your web browser to start playing!
+## Usage
 
-## Tests
-Run the following command to execute the test suite:
-```bash
-rails test
-```
-
-## Deployment
-
-This application can be deployed on platforms like Heroku. Follow the standard procedures for deploying a Rails app to your preferred service.
+- Visit the homepage to start a new game.
+- A set of random letters will be displayed.
+- Enter the longest word you can form using the given letters.
+- Submit the word to see your score.
 
 ## Contributing
 
-Contributions to the Rails Longest Word Game are welcome! Please fork the repository, create a new feature branch, and submit a pull request.
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License.
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Contact
+
+For any questions or feedback, please contact shliamin@example.com.
