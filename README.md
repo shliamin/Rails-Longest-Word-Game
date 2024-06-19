@@ -52,14 +52,3 @@ Then, open your browser and navigate to `http://localhost:3000` to play the game
 - Enter the longest word you can form using the given letters.
 - Submit the word to see your score.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contact
-
-For any questions or feedback, please contact shliamin@example.com.
