@@ -43,7 +43,6 @@ To start the Rails server, run:
 ```bash
 rails server
 ```
-Then, open your browser and navigate to `http://localhost:3000` to play the game.
 
 ## Usage
 
